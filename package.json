@@ -8,6 +8,7 @@
     "lint": "eslint \"src/**/*.ts\"",
     "build": "rollup -c",
     "push-main": "rollup -c --environment DEST:main",
+    "push-tutorial": "rollup -c --environment DEST:tutorial",
     "push-pserver": "rollup -c --environment DEST:pserver",
     "push-sim": "rollup -c --environment DEST:sim",
     "test": "npm run test-unit",
@@ -63,6 +64,6 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "source-map": "~0.6.1"
+    "source-map": "^0.6.1"
   }
 }
